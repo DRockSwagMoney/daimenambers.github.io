@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LNAR-PF0VXC97</Machine>
+    <WindowsUser>dambers</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3eed1a54-ad04-4310-8a17-5987c945af24</PackageIdentityName>
+    <PackageIdentityPublisher>CN=dambers</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\dambers\source\repos\App6\App6\bld\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\dambers\source\repos\App6\App6\bin\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E4913345005F52AAAD8ED3DE8612931A9623065926D17EEB311EE47A93EDEF1C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3eed1a54-ad04-4310-8a17-5987c945af24_1.0.0.0_neutral__cxqr7n6xjhfra</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3eed1a54-ad04-4310-8a17-5987c945af24_cxqr7n6xjhfra!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3eed1a54-ad04-4310-8a17-5987c945af24</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=dambers</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\dambers\source\repos\App6\App6\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T19:39:51.765</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2018-09-05T19:34:35.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-08-17T13:49:30.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-17T13:49:30.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-17T13:49:30.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-17T13:49:30.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-17T13:49:30.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-17T13:49:30.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-08-17T13:49:30.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2018-08-31T02:36:28.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2018-09-01T14:45:33.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dambers\source\repos\App6\App6\bin\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-09-05T19:39:51.663</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
