@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!--meta name="viewport" content="width=device-width, initial-scale=1: />-->
+    <title>App6</title>
+    <link href="css/default.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script scr="C:\Users\dambers\AppData\Local\Temp\7zO001B2111\glyphicons-halflings-regular.svg"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header"></div>
+            <a class="navbar-brand" href="#">The Great Battle</a>
+        </div>
+
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Account
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li><a href="#">Page 4</a></li>
+            <li><button type="button" class="btn navbar-btn" data-toggle="modal" data-target="myLogIn">Login</button></li>
+        </ul>
+        <div class="container">
+            <form class="navbar-form navbar-right" action="/action_page.php">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search" />
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <div style="padding: 100px">
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myLogIn" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Body</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding: 100px">
+        <h1>The battle of Gettysburg</h1>
+        <blockquote class="blockquote">
+            <p>This was a triumphant night in the battle of Gettysburg</p>
+            <footer>Anonymous.</footer>
+        </blockquote>
+    </div>
+
+    <div class="container">
+        <ul class="nav nav-pills nav-justified">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- Black hot drink</dd>
+        </dl>
+        <p class="lead"> this paragraph stands out</p>
+        <p>This one does not.</p>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>This is the Next Big Thing</h1>
+            <a href="#"><button class="#"<button class="btn btn-success">Button</button></a>
+            <p>Sit back, relax, and enjoy the show</p>
+        </div>
+        <dl>
+            <dt>Step one</dt>
+            <dd>Keep enjoying the show.</dd>
+        </dl>
+    </div>
+    <div class=" container alert alert-success alert-dissmissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> This alert box could indicate a successful or positive action.
+    </div>
+    <div class="container">
+        <ul class="pager">
+            <li class="previous"><a href="#">Previous</a></li>
+            <li class="next"><a href="#">Next</a></li>
+        </ul>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
